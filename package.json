@@ -1,8 +1,8 @@
 {
-  "name": "nyf",
+  "name": "navyuvafn",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shera-bhai.github.io/nyf/",
+  "homepage": "https://shera-bhai.github.io/navyuvafn/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
