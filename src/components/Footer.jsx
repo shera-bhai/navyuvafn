@@ -23,8 +23,8 @@ const [isOpen2, setIsOpen2] = useState(false)
                         name="N.A.V Yuva Foundation" />
                     <div className="my-6 flex justify-center space-x-4 md:space-x-12">
                         <a href="https://drive.google.com/file/d/1xhZy7Wk-vFdBGlLlDfB-OZAXQ31uG8I2/view?usp=sharing" target="_blank" className="text-gray-500 hover:text-white">COI</a>
-                        <button onClick={() => setIsOpen(true)} className="text-gray-500 hover:text-white">Donate Now</button>
-                        <button onClick={() => setIsOpen2(true)} className="text-gray-500 hover:text-white">Join Us</button>
+                        <a><button onClick={() => setIsOpen(true)} className="text-gray-500 hover:text-white">Donate Now</button></a>
+                        <a><button onClick={() => setIsOpen2(true)} className="text-gray-500 hover:text-white">Join Us</button></a>
                         <Footer.Icon href="https://www.instagram.com/nav_yuva_foundation" icon={BsInstagram} />
                         <Footer.Icon href="https://www.linkedin.com/company/n-a-v-yuva-foundation/" icon={BsLinkedin} />
                         <Footer.Icon href="https://x.com/N_A_V_Yuva" icon={FaXTwitter} className="md:mr-20" />
